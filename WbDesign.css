@@ -1,0 +1,513 @@
+/* Navbar Section */
+
+
+/* Styling links */
+.navbar li a{
+    border: 2px solid #00b8ff;
+    text-decoration: none;
+    color: black;
+    margin: 19px;
+    padding: 6px;
+    border-radius: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/* When Hover */
+.navbar li a:hover{
+    background-color: rgb(255, 252, 81);
+    text-decoration: none;
+    color: black;
+    margin: 19px;
+    padding: 6px;
+    border-radius: 30px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    
+}
+.navbar{
+    /* border: 4px solid red; */
+    float: right;
+    position: sticky;
+}
+/* Logo Section */
+
+
+/* Styling The Logo */
+.logo img{
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+}
+/*  Styling the title */
+#title{
+    margin: 0px;
+    font-size: 16px;
+}
+/* Heading Section */
+
+
+/* Styling the Heading */
+.mainheading  h1{
+    text-align: center;
+    font-size: 74px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 60px;
+}
+/* Content Section */
+
+
+/* Styling content */
+.content{
+    /* border: 2px solid red; */
+    margin: 98px;
+    position: relative;
+    left: 20px;
+    bottom: 63px;
+    font-size : 48px; 
+}
+.content h2{
+    text-align: center;
+    position: relative;
+    right: 20px;
+    font-size: 1.616em;
+}
+.content p{
+
+    /* padding: -20px; */
+    text-align: center;
+    color: rgb(255, 1, 1);
+}
+/* Images Section */
+
+
+/* Styling Temple Names */
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+    margin-top: 100px;
+}
+.box-3{
+    position: relative;
+    bottom: 399px;
+}
+.box-5{
+    position: relative;
+    bottom: 399px;
+}
+.box-6{
+    position: relative;
+    bottom: 399px;
+}
+.box-1 h3{
+   width: 400px;
+   height: 400px; 
+   margin-right: 20px;
+   position: relative;
+   bottom: 33px;
+   right: -95px;
+   /* text-align: center; */
+}
+.box-2 h3{
+   width: 400px;
+   height: 400px; 
+   margin-right: 20px;
+   position: relative;
+   bottom: 33px;
+   right: -95px;
+   /* text-align: center; */
+}
+.box-3 h3{
+   width: 400px;
+   height: 400px; 
+   margin-right: 20px;
+   position: relative;
+   bottom: 33px;
+   right: -95px;
+   /* text-align: center; */
+}
+.box-4 h3{
+   width: 400px;
+   height: 400px; 
+   margin-right: 20px;
+   position: relative;
+   bottom: 433px;
+   left: 110px;
+   right: -95px;;
+   /* text-align: center; */
+}
+.box-5 h3{
+   width: 400px;
+   height: 400px; 
+   margin-right: 20px;
+   position: relative;
+   bottom: 433px;
+   left: 20px;
+   right: -95px;;
+   /* text-align: center; */
+}
+.box-6 h3{
+   width: 400px;
+   height: 400px; 
+   margin-right: 20px;
+   position: relative;
+   bottom: 433px;
+   left: 90px;
+   right: -95px;;
+   /* text-align: center; */
+   
+}
+
+/* Styling Images */
+.box-1 img{
+   width: 300px;
+   height: 300px; 
+   margin: 20px;
+   margin-right: 20px;
+}
+.box-2 img{
+    width: 300px;
+    margin: 20px;
+    height: 300px; 
+}
+.box-3 img{
+    width: 300px;
+    margin: 20px;
+   height: 300px; 
+}
+.box-4 img{
+    width: 300px;
+    margin: 20px;
+   height: 300px; 
+   position: relative;
+   bottom: 400px;
+}
+.box-5 img{
+    width: 300px;
+    margin: 20px;
+   height: 300px; 
+   position: relative;
+   bottom: 400px;
+}
+.box-6 img{
+    width: 300px;
+    margin: 20px;
+   height: 300px; 
+   position: relative;
+   bottom: 400px;
+}
+.box-1 iframe{
+    position: relative;
+    bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+.box-2 iframe{
+    position: relative;
+    bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+.box-3 iframe{
+    position: relative;
+    bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+.box-4 iframe{
+    position: relative;
+    bottom: 419px;
+    width: 300px;
+    height: 300px;
+}
+.box-5 iframe{
+    position: relative;
+    bottom: 419px;
+    width: 300px;
+    height: 300px;
+}
+.box-6 iframe{
+    position: relative;
+    bottom: 419px;
+    width: 300px;
+    height: 300px;
+}
+.linksforwikipedia{
+    position: relative;
+    bottom: 800px;
+}
+.linksforwikipedia h2{
+    font-size: 43px;
+    text-decoration: wavy;
+}
+.links ul li a{
+    text-decoration: none;
+}
+
+/* Styling HTML */
+html{
+    background-color: #f1b0c5;
+}
+/* @media only screen and (min-width: 780px) {
+    body{
+        /* background-color: red; */
+    /* } */
+/* } */ 
+.aboutus{
+    position: relative;
+    width: 591px;
+    bottom: 1226px;
+}
+#AboutUs{
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+#Aboutus{
+    position: relative;
+    left: 20px;
+}
+.contactus{
+    position: relative;
+    width: 570px;
+    bottom: 1349px;
+    left: 710px;
+}
+#ContactUs{
+    text-align: center;
+}
+#Contactus{
+    position: relative;
+    left: 20px;
+}
+.suggestions{
+    position: relative;
+    bottom: 1200px;
+    left: 500px;
+}
+.Suggestions{
+    position: relative;
+    left: 30px;
+}
+#name{
+    border-radius: 30px;
+}
+#email{
+    border-radius: 30px;
+}
+#textarea{
+    border-radius: 15px;
+    width: 500px;
+}
+#button{
+    margin: 20px;
+    position: relative;
+    left: 128px;
+    padding: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 13px;
+}
+#button:hover{
+    background-color: greenyellow;
+}
+#instaimg{
+    width: 50px;
+    height: 50px;
+}
+#facebook{
+    width: 50px;
+    height: 50px;
+}
+#youtube{
+    width: 50px;
+    height: 50px;
+}
+#Instagram{
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+#Facebook{
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+#Youtube{
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+#Gmail{
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+    
+
+}
+#gmail{
+    width: 50px;
+    height: 50px;
+}
+.box-1 a img:hover{
+    animation-name: image1;
+    animation-duration: 1s
+    /* transform-duration: 1s; */
+}
+@keyframes image1{
+    from{
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 50px;
+    }
+    0%{transform: rotate(270deg);}
+    10%{transform: rotate(280deg);}
+    20%{transform: rotate(290deg);}
+    30%{transform: rotate(300deg);}
+    40%{transform: rotate(310deg);}
+    50%{transform: rotate(320deg);}
+    60%{transform: rotate(330deg);}
+    70%{transform: rotate(340deg);}
+    80%{transform: rotate(350deg);}
+    90%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+    /* 10%{transform: rotate(80deg);}
+    10%{transform: rotate(80deg);} */
+}
+.box-2 a img:hover{
+    animation-name: image2;
+    animation-duration: 1s
+    /* transform-duration: 1s; */
+}
+@keyframes image2{
+    from{
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 50px;
+    }
+    0%{transform: rotate(270deg);}
+    10%{transform: rotate(280deg);}
+    20%{transform: rotate(290deg);}
+    30%{transform: rotate(300deg);}
+    40%{transform: rotate(310deg);}
+    50%{transform: rotate(320deg);}
+    60%{transform: rotate(330deg);}
+    70%{transform: rotate(340deg);}
+    80%{transform: rotate(350deg);}
+    90%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+    /* 10%{transform: rotate(80deg);}
+    10%{transform: rotate(80deg);} */
+}
+.box-3 a img:hover{
+    animation-name: image3;
+    animation-duration: 1s
+    /* transform-duration: 1s; */
+}
+@keyframes image3{
+    from{
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 50px;
+    }
+    0%{transform: rotate(270deg);}
+    10%{transform: rotate(280deg);}
+    20%{transform: rotate(290deg);}
+    30%{transform: rotate(300deg);}
+    40%{transform: rotate(310deg);}
+    50%{transform: rotate(320deg);}
+    60%{transform: rotate(330deg);}
+    70%{transform: rotate(340deg);}
+    80%{transform: rotate(350deg);}
+    90%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+    /* 10%{transform: rotate(80deg);}
+    10%{transform: rotate(80deg);} */
+}
+.box-4 a img:hover{
+    animation-name: image4;
+    animation-duration: 1s
+    /* transform-duration: 1s; */
+}
+@keyframes image4{
+    from{
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 50px;
+    }
+    0%{transform: rotate(270deg);}
+    10%{transform: rotate(280deg);}
+    20%{transform: rotate(290deg);}
+    30%{transform: rotate(300deg);}
+    40%{transform: rotate(310deg);}
+    50%{transform: rotate(320deg);}
+    60%{transform: rotate(330deg);}
+    70%{transform: rotate(340deg);}
+    80%{transform: rotate(350deg);}
+    90%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+    /* 10%{transform: rotate(80deg);}
+    10%{transform: rotate(80deg);} */
+}
+.box-5:hover{
+    animation-name: image5;
+    animation-duration: 12
+    /* transform-duration: 1s; */
+}
+@keyframes image5{
+    from{
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 50px;
+    }
+    0%{transform: rotate(270deg);}
+    10%{transform: rotate(280deg);}
+    20%{transform: rotate(290deg);}
+    30%{transform: rotate(300deg);}
+    40%{transform: rotate(310deg);}
+    50%{transform: rotate(320deg);}
+    60%{transform: rotate(330deg);}
+    70%{transform: rotate(340deg);}
+    80%{transform: rotate(350deg);}
+    90%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+    /* 10%{transform: rotate(80deg);}
+    10%{transform: rotate(80deg);} */
+}
+.box-6 a img:hover{
+    animation-name: image6;
+    animation-duration: 1s
+    /* transform-duration: 1s; */
+}
+@keyframes image6{
+    from{
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 50px;
+    }
+    0%{transform: rotate(270deg);}
+    10%{transform: rotate(280deg);}
+    20%{transform: rotate(290deg);}
+    30%{transform: rotate(300deg);}
+    40%{transform: rotate(310deg);}
+    50%{transform: rotate(320deg);}
+    60%{transform: rotate(330deg);}
+    70%{transform: rotate(340deg);}
+    80%{transform: rotate(350deg);}
+    90%{transform: rotate(360deg);}
+    100%{transform: rotate(360deg);}
+    /* 10%{transform: rotate(80deg);}
+    10%{transform: rotate(80deg);} */
+}
